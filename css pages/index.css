@@ -1,1 +1,80 @@
-@import '../partials/layout.css'
+@import '../partials/layout.css';
+main{
+    font-family: var(--body-fonts);
+}
+.site-welcome {
+    border-left: 2px solid var(--border-color);
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: var(--body-fonts);
+    border-bottom: 2px solid var(--border-color);
+    border-radius: 5%;
+    margin-top: 5px;
+}
+.background {
+    width: 100vw;
+    height: 70vh;
+    background-image: url(../images/Space.webp);
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.purplefancy {
+    font-family: var(--specific-fonts);
+    color:var(--purple-color);
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 20px;
+}
+.explorebtn {
+    background-color: var(--purple-color);
+    width: 150px;
+    font-size: 25px;
+    border: none;
+    margin-left: 50px;
+    margin-top: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border-bottom:2px solid var(--black-color);
+    border-left:2px solid var(--black-color);
+    text-transform: uppercase;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    place-items: center;
+    gap: 10px;
+}
+.contentbox{
+    background-color:var(--bg-color) ; 
+    width: 301px;
+    height: 293px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10%;
+    border-bottom: 2px solid lightgreen;
+    border-left: 2px solid lightgreen;
+}
+.box1img{
+    width: 150px;
+    height: 140px;
+    margin-bottom: 20px;
+}
+.box1pics{
+    display: flex;
+}
+.in-boxtext{
+    margin-left: 30px;
+}
+.seemore {
+    color:black;
+    margin: 20px auto;
+}
+
+.box2img{
+    width: 300px;
+    height: 150px;
+    margin-bottom: 10px;
+}
