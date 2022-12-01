@@ -1,0 +1,39 @@
+@import '../partials/layout.css';
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    place-items: center;
+    gap: 10px;
+}
+.contentbox{
+    background-color:var(--bg-color) ; 
+    width: 301px;
+    height: 293px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10%;
+    border-bottom: 2px solid lightgreen;
+    border-left: 2px solid lightgreen;
+}
+.box1img{
+    width: 150px;
+    height: 140px;
+    margin-bottom: 20px;
+}
+.box1pics{
+    display: flex;
+}
+.in-boxtext{
+    margin-left: 30px;
+}
+.seemore {
+    color:black;
+    margin: 20px auto;
+}
+
+.box2img{
+    width: 300px;
+    height: 150px;
+    margin-bottom: 10px;
+}
