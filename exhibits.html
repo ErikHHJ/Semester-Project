@@ -8,71 +8,123 @@
     <meta name="description" content="Community Science Museum offers insight into the world of science for the entire family!">
     <link rel="stylesheet" href="./css pages/exhibits.css">
     <script src="https://kit.fontawesome.com/86fb0fb587.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Zen+Dots&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
         <nav class="nav">
 
         <div class="center">
-            <img src="./images/Logo.PNG" class="logo" alt="Logo">
+            <i class="fa-solid fa-dna logo"></i>
             <h2 class="title">Community Science Museum Bergen</h2>
         </div>
-            <input type="checkbox" id="menu-checkbox">
+        <div> <ul class="navigation">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./exhibits.html">Exhibits</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Visit</a></li>
+            <li><a href="#">Join Us</a></li>
+        </ul></div>
+                <input type="checkbox" id="menu-checkbox">
             <label for="menu-checkbox"><i id="icon" class="fa-solid fa-bars menu"></i></label>
         <div class="dropdownmenu">
-            <a class="dropdownitem" href="#">Home</a>
-            <a class="dropdownitem" href="#">About</a>
-            <a class="dropdownitem" href="#">Opening Hours</a>
-            <a class="dropdownitem" href="#">Exhibits</a>
-            <a class="dropdownitem" href="#">Tickets</a>
+            <a class="dropdownitem" href="./index.html">Home</a>
+            <a class="dropdownitem" href="./exhibits.html">Exhibits</a>
+            <a class="dropdownitem" href="#">Events</a>
+            <a class="dropdownitem" href="#">Visit</a>
+            <a class="dropdownitem" href="#">Join Us</a>
         </div>
         </nav>
     </header>
-    <section class="grid">
-        <div class="contentbox">
-            <div class="box1pics"><img class="box1img" src="./images/skeleton.webp" alt="Picture of the skeleton of a wooly mammoth">
-                <img class="box1img" src="./images/evolution.webp" alt="Picture of skeletons from the different stages of our own evolution."></div>
-            <h3 class="in-boxtext">Ancient Biology Exhibit</h3>
-            <p class="in-boxtext">For those eager to learn about evolution, archeology and the various epochs of evolutionary biodiversity</p>
-            <a class="seemore in-boxtext" href="#">See more</a>
+    <main>
+        <p class="specificfont max-width current">Home | Exhibits</p>
+        <section class="exhibit-grid max-width">
+
+            <div class="cards">
+                <img class="card-img" src="./images/Space2.webp" alt="Image of a distant galaxy.">
+                <h2 class="specificfont">Cosmology</h2>
+                <p class="bodyfont cardtext">
+                    Explore the wonders of our cosmos. Our fantastic exhibition, "The Sky Above Us", explores the night sky and what we can see and know about the universe around us.
+                </p>
+                <a class="seemore" href="#">See More</a>
+            </div>
+            <div class="cards">
+                <img class="card-img" src="./images/Evolution.webp" alt="Image of a distant galaxy.">
+                <h2 class="specificfont">Evolution</h2>
+                <p class="bodyfont cardtext">
+                    Discover the origins of life on this planet and how the species we know today have evolved our time. You can also take some time to meet a few of the creatures who didn’t survive, including our Woolly Mammoth, the Dodos, and a number of dinosaurs too.
+                </p>
+                <a class="seemore" href="#">See More</a>
+            </div>
+            <div class="cards">
+                <img class="card-img" src="./images/Biology.webp" alt="Image of a distant galaxy.">
+                <h2 class="specificfont">Biology and Medicine</h2>
+                <p class="bodyfont cardtext">
+                    Over a series of exhibits we explore the history of medicine and take a look at some major breakthroughs including the discovery of penicillin and the first heart transplant. Often we get ideas from nature!
+                </p>
+                <a class="seemore" href="#">See More</a>
+            </div>
+            <div class="cards">
+                <img class="card-img" src="./images/KunstligIntelligens.webp" alt="Image of a distant galaxy.">
+                <h2 class="specificfont">Robotics and AI</h2>
+                <p class="bodyfont cardtext">
+                    The information revolution is here and robotics and artificial intelligence are the science of the future. From useful home applications of AI to industrial uses of robotics, the future is here. You can even say hello and shake the hand of Rob the Robot.
+                </p>
+                <a class="seemore" href="#">See More</a>
+            </div>
+            <div class="cards">
+                <img class="card-img" src="./images/Ecology.webp" alt="Image of a distant galaxy.">
+                <h2 class="specificfont">Ecology</h2>
+                <p class="bodyfont cardtext">
+                    In our ecology section of the museum, we unpack the dangers we currently face including global warming, extinction of species, and pollution. But we also focus on the positive ways we can all contribute to a brighter future.
+                </p>
+                <a class="seemore" href="#">See More</a>
+            </div>
+
+
+        </section>
+    </main>
+    <footer class="footer footergrid">
+        <div class="white grid-item">
+            <p class="footeros white-underline">Opening Hours</p>
+            <ul class="lists bodyfont">
+                <li>Monday : Closed</li>
+                <li>Tuesday : 10:00-16:00</li>
+                <li>Wednesday : 10:00-16:00</li>
+                <li>Thursday : 10:00-16:00</li>
+                <li>Friday : 10:00-19:00</li>
+                <li>Saturday : 09:00-16:00</li>
+                <li>Sunday : 9:00-13:00</li>
+            </ul>
+        </div>
+        <div class="white grid-item">
+            <p class="bodyfont white-underline"><i class="fa-solid fa-location-pin pin"></i>Location:</p>
+            <p>Torgallmenningen, Bergen City Centre</p>
+        </div>
+        <div class="white grid-item">
+            <p class="specificfont white-underline">Navigation</p>
+            <ul class="lists bodyfont">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./exhibits.html">Exhibits</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Visit</a></li>
+                <li><a href="#">Join Us</a></li>
+            </ul>
 
         </div>
-        <div class="contentbox">
-            <img class="box2img" src="./images/Pendulum.webp" alt="Image of a swinging pendulum called Foucaults pendulum">
-            <h3 class="in-boxtext">Foucaults Pendulum!</h3>
-            <p class="in-boxtext">Learn and experience how our ancestors figured out the earth was rotating, and do the measurements for yourself!</p>
-            <a class="seemore in-boxtext" href="#">See more</a>
-
-        </div>
-        <div class="contentbox">
-            <img class="box2img" src="./images/Plane.webp" alt="Image of one of the planes in the exhibit">
-            <h3 class="in-boxtext">History of aviation!</h3>
-            <p class="in-boxtext">Obtain insight into the history of flight, with the different models of planes both before and after the Wright-brothers</p>
-            <a class="seemore in-boxtext" href="#">See more</a>
-
-        </div>
-        <div class="contentbox">
-            
-
-        </div>
-        <div class="contentbox">
-
-        </div>
-
-    </section>
-    <footer class="footer">
-        <div class="socials">
-            <i class="fa-brands fa-twitter socials"></i>
-            <i class="fa-brands fa-facebook socials"></i>
-            <i class="fa-brands fa-youtube socials"></i>
-            <i class="fa-brands fa-tiktok socials"></i>
-        </div>
-        <div class="white">
-            <p>Location: Torgallmenningen, Bergen</p>
-            <p>Opening Hours: 09.00-20.00 Every day</p>
-            <p>Phone: 55 06 03 23</p>
-            
+        <div class="socials grid-item">
+           <p class="specificfont column white-underline">Socials</p>
+           <div class="row">
+            <i class="fa-brands fa-twitter icons"></i>
+            <i class="fa-brands fa-facebook icons"></i>
+            <i class="fa-brands fa-youtube icons"></i>
+            <i class="fa-brands fa-tiktok icons"></i>
+           </div>
         </div>
     </footer>
+   
+    
 </body>
 </html>

@@ -1,39 +1,46 @@
 @import '../partials/layout.css';
-.grid {
+.current{
+    font-size: 10px;
+}
+.exhibit-grid {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     place-items: center;
     gap: 10px;
+    background-color: var(--site-bg-color-dark);
 }
-.contentbox{
-    background-color:var(--bg-color) ; 
-    width: 301px;
-    height: 293px;
-    display: flex;
-    flex-direction: column;
+.card-img{
+    height: 175px;
+    width: 200px;
     border-radius: 10%;
-    border-bottom: 2px solid lightgreen;
-    border-left: 2px solid lightgreen;
-}
-.box1img{
-    width: 150px;
-    height: 140px;
-    margin-bottom: 20px;
-}
-.box1pics{
-    display: flex;
-}
-.in-boxtext{
-    margin-left: 30px;
-}
-.seemore {
-    color:black;
-    margin: 20px auto;
-}
-
-.box2img{
-    width: 300px;
-    height: 150px;
     margin-bottom: 10px;
 }
+.cardtext {
+    padding: 15px;
+}
+.cards h2 {
+    font-size: 16px;
+}
+.seemore{
+    color: black;
+    margin-top: 10px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border-bottom: 2px solid var(--border-color);
+    border-right: 2px solid var(--border-color);
+    background-color: var(--bg-color);
+}
+@media (min-width:750px){
+    .exhibit-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+

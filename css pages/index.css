@@ -22,6 +22,16 @@
     top: 60%;
     background-color: var(--black-color);
     width: 200px;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+.hover{
+top: 60vh;
+text-decoration: none;
+}
+.hover:hover{
+    background-color: var(--border-color);
+    color: var(--black-color);
 }
 .indextext{
     background-color: var(--bg-color);
@@ -38,6 +48,12 @@
 @media (min-width:750px){
     .greenfancy {
         margin-left: 70px;
+    }
+}
+@media (min-width:1200px){
+    .greenfancy{
+        width: 400px;
+        left: 20vw;
     }
 }
 

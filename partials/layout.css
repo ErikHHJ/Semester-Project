@@ -14,10 +14,12 @@
     --border-color: rgba(128, 227, 2, 1); 
     --body-fonts:'Roboto', sans-serif;
     --specific-fonts:'Zen Dots', cursive;
-    --bg-color: rgba(244, 251, 238, 1);
+    --bg-color: rgb(243, 248, 238);
+    --site-bg-color-dark: rgb(240, 240, 240);
 }
 .white-underline {
     text-decoration: underline 1px solid var(--white-color);
+    margin-bottom: 10px;
 }
 .bold {
     font-weight: bold;
@@ -45,11 +47,16 @@ justify-content: space-around;
 align-items: center;
 height: 75px;
 padding: 10px;
-
 }
 .nav a{
     text-decoration: none;
     font-family: var(--specific-fonts);
+    transition: 0.7s;
+}
+.nav a:hover {
+    background-color: var(--border-color);
+    color: var(--black-color);
+    text-decoration: underline solid var(--black-color);
 }
 .navigation {
     display: none;
@@ -65,7 +72,6 @@ position: absolute;
 right: 0%;
 top: 75px;
 display: none;
-
 }
 #menu-checkbox:checked ~ .dropdownmenu {
     display: block;
@@ -95,9 +101,15 @@ display: none;
 .grid-item{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .lists {
     list-style: none;
+}
+.lists a{
+    text-decoration: none;
+    color: var(--white-color);
 }
 .footeros {
     font-size: 20px;
@@ -118,6 +130,7 @@ display: none;
 }
 .specificfont{
     font-family: var(--specific-fonts);
+    letter-spacing: 0.2rem;
 }
 .pin {
     margin-right: 10px;
@@ -146,6 +159,8 @@ display: none;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr;
+        padding-left: 70px;
+        padding-right: 70px;
     }
     .white{
         width:25vw;
@@ -173,6 +188,11 @@ display: none;
     }
     label {
         display: none;
+    }
+}
+@media (min-width: 1200px){
+    .title {
+        font-size: 20px;
     }
 }
 
