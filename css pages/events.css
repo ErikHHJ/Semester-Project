@@ -1,0 +1,57 @@
+@import '../partials/layout.css';
+.eventsgrid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: var(--site-bg-color-dark);
+    gap: 50px;
+    padding: 10px;
+}
+.sectiongrid{
+    display: grid;
+    background-color: var(--bg-color);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 10px;
+    gap: 10px;
+    max-height: 450px;
+    transition: .2s;
+}
+.sectiongrid:hover {
+    transform: scale(1.2);
+}
+.sectionimg{
+    width: 150px;
+    height: 300px;
+}
+.sectiontext {
+    max-width: 200px;
+    margin-top: 30px;
+    font-size: 17px;
+}
+.datesticker1{
+    position: relative;
+    background-color: var(--border-color);
+    padding: 10px;
+    bottom: 314px;
+    right: 10px;
+    max-width: 100px;
+    border: 2px solid var(--black-color);
+}
+@media (min-width:650px){
+    .sectionimg{
+        width: 300px;
+        height: 400px;
+    }
+    .eventsgrid {
+        padding: 40px;
+    }
+    .datesticker1{
+        bottom: 414px;
+    left: 300px;
+    }
+    .sectiontext{
+        font-size: 25px;
+        max-width: 300px;
+    }
+}

@@ -1,0 +1,33 @@
+@import '../partials/layout.css';
+.visitgrid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    background-color: var(--site-bg-color-dark);
+    place-items: center;
+    gap: 20px;
+}
+.visitimg{
+    width: 80vw;
+    max-width: 1180px;
+    border: 4px solid var(--border-color);
+    
+}
+.overskrift{
+    text-decoration: underline 2px solid var(--black-color);
+}
+.paragraphs{
+    max-width: 60vw;
+    font-size: 15px;
+}
+.shopimg{
+    width: 60vw;
+    max-width: 1180px;
+    border: 4px solid var(--border-color);
+}
+@media (min-width:750px){
+    .paragraphs{
+        font-size: 25px;
+        max-width: 600px;
+    }
+}

@@ -34,9 +34,13 @@
     max-width: 300px;
     padding: 10px;
     border-radius: 10px;
-    border-bottom: 2px solid var(--border-color);
-    border-right: 2px solid var(--border-color);
+    border-bottom: 4px solid var(--border-color);
+    border-right: 4px solid var(--border-color);
     background-color: var(--bg-color);
+    transition: .2s;
+}
+.cards:hover{
+    transform: scale(1.2);
 }
 @media (min-width:750px){
     .exhibit-grid{
