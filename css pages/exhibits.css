@@ -7,7 +7,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     place-items: center;
-    gap: 10px;
+    gap: 20px;
     background-color: var(--site-bg-color-dark);
 }
 .card-img{

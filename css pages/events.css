@@ -18,7 +18,7 @@
     transition: .2s;
 }
 .sectiongrid:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .sectionimg{
     width: 150px;
@@ -46,12 +46,23 @@
     .eventsgrid {
         padding: 40px;
     }
-    .datesticker1{
-        bottom: 414px;
-    left: 300px;
-    }
     .sectiontext{
         font-size: 25px;
         max-width: 300px;
+    }
+    .datesticker1{
+        bottom: 414px;
+    }
+}
+@media (min-width:465px){
+    .sectionimg{
+        width: 200px;
+    }
+}
+@media (min-width:908px){
+    .datesticker1{
+        bottom: 414px;
+    left: 0px;
+    max-width: 150px;
     }
 }
