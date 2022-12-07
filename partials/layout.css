@@ -38,6 +38,7 @@
 .logo{
     font-size: 50px;
     color: var(--border-color);
+    
 }
 .nav{
     color: var(--white-color);
@@ -48,12 +49,12 @@ align-items: center;
 height: 75px;
 padding: 10px;
 }
-.nav a{
+.nav ul a{
     text-decoration: none;
     font-family: var(--specific-fonts);
     transition: 0.7s;
 }
-.nav a:hover {
+.nav ul a:hover {
     background-color: var(--border-color);
     color: var(--black-color);
     text-decoration: underline solid var(--black-color);
@@ -155,13 +156,7 @@ display: none;
     .logo {
         margin-left: 70px;
     }
-    .footergrid {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
-        padding-left: 70px;
-        padding-right: 70px;
-    }
+   
     .white{
         width:25vw;
         border: none;
@@ -190,9 +185,15 @@ display: none;
         display: none;
     }
 }
-@media (min-width: 1200px){
+@media (min-width: 1000px){
     .title {
         font-size: 20px;
+    }
+    .footergrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        place-items: start;
     }
 }
 
