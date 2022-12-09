@@ -10,7 +10,7 @@
 .joingrid-item{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     padding: 20px;
     border-radius: 10%;
@@ -51,10 +51,7 @@
 .contact h3:nth-of-type(1){
     border-bottom: 2px solid var(--black-color);
 }
-.intern{
-    display: flex;
-    justify-content: flex-start;
-}
+
 @media (min-width:1088px){
     .joingrid{
         grid-template-columns: 1fr 1fr 1fr;

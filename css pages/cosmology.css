@@ -1,0 +1,27 @@
+@import '../partials/layout.css'; 
+.cosmology-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    background-color: var(--site-bg-color-dark);
+    place-items: center;
+    gap: 30px;
+}
+.sitetitle{
+display: flex;
+justify-content: center;
+}
+.cosmology-img{
+    width: 70vw;
+    max-width: 900px;
+    border: 4px solid var(--border-color);
+}
+.eclipse-img{
+    width: 100vw;
+    max-width: 1100px;
+    border: 4px solid var(--border-color);
+}
+.cosmology-grid p {
+    width: 60vw;
+    max-width: 600px;
+}
