@@ -1,7 +1,4 @@
 @import '../partials/layout.css';
-.current{
-    font-size: 10px;
-}
 .exhibit-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -34,6 +31,7 @@
     max-width: 300px;
     padding: 10px;
     border-radius: 10px;
+    
     border-bottom: 4px solid var(--border-color);
     border-right: 4px solid var(--border-color);
     background-color: var(--bg-color);
