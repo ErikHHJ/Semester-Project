@@ -38,6 +38,20 @@
     max-width: 100px;
     border: 2px solid var(--black-color);
 }
+.signup{
+    color: var(--black-color);
+    margin-top: 20px;
+    border-bottom: 2px solid var(--border-color);
+    border-right: 2px solid var(--border-color);
+    border-top: 1px solid var(--black-color);
+    border-left: 1px solid var(--black-color);
+    font-size: 25px;
+    width: 220px;
+    padding: 10px;
+}
+.textdiv a {
+    text-decoration: underline 2px solid var(--black-color);
+}
 @media (min-width:650px){
     .sectionimg{
         width: 300px;

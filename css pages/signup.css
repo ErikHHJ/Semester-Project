@@ -1,0 +1,31 @@
+@import '../partials/layout.css';
+.signupgrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    place-items: center;
+    background-color: var(--site-bg-color-dark);
+    gap: 20px;
+}
+.inputfield{
+    width: 70vw;
+    border-right: 2px solid var(--border-color);
+    border-bottom:2px solid var(--border-color); 
+    padding: 10px;
+    max-width: 1100px;
+}
+.signupgrid p {
+    max-width: 600px;
+}
+.submit{
+    padding: 10px;
+    color: var(--border-color);
+    background-color: var(--black-color);
+    border: 2px solid var(--border-color);
+    border-radius: 20px;
+    width: 200px;
+}
+.seeyousoon{
+    width: 40vw;
+
+}
