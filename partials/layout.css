@@ -5,6 +5,8 @@
 }
 .current{
     font-size: 10px;
+    margin-bottom: 10px;
+    background-color: var(--site-bg-color-dark);
 }
 .max-width {
     max-width: 1200px;

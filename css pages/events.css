@@ -45,12 +45,12 @@
     border-right: 2px solid var(--border-color);
     border-top: 1px solid var(--black-color);
     border-left: 1px solid var(--black-color);
-    font-size: 25px;
-    width: 220px;
+    font-size: 15px;
+    width: 150px;
     padding: 10px;
 }
 .textdiv a {
-    text-decoration: underline 2px solid var(--black-color);
+    text-decoration: none;
 }
 @media (min-width:650px){
     .sectionimg{
@@ -66,6 +66,10 @@
     }
     .datesticker1{
         bottom: 414px;
+    }
+    .signup{
+        font-size: 25px;
+        width: 220px;
     }
 }
 @media (min-width:465px){
