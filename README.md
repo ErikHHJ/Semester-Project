@@ -15,7 +15,6 @@ HTML and CSS.
 ### Installing
 In order to take a look at this project, the netlify deployment link is: https://comforting-narwhal-ba7200.netlify.app/
 To view the code, you must clone this repository
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
 
 1. Clone the repo:
 ```bash
