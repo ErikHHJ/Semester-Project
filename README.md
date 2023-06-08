@@ -4,9 +4,9 @@
 This site is a submission which was to be graded as the last task for the first semester. Task provided images, opening hours, exhibits, and generally most of the content. This was out first graded assignment, so the quality is significantly lower. We had not yet started learning any javascript. 
 
 ## Description
--I was tasked with creating a website for a new science museum coming to my city, where the target audience was supposed to be families with teenagers or younger kids.
--The purpose of the museum is to educate people on pretty advanced science in a fun way to make it easy to learn. 
--The design is meant to remind one of science, with a green and black colour mix, and a pretty scientific-looking font. 
+- I was tasked with creating a website for a new science museum coming to my city, where the target audience was supposed to be families with teenagers or younger kids.
+- The purpose of the museum is to educate people on pretty advanced science in a fun way to make it easy to learn. 
+- The design is meant to remind one of science, with a green and black colour mix, and a pretty scientific-looking font. 
 
 ## Built With
 HTML and CSS.
