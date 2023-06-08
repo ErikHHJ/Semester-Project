@@ -1,7 +1,7 @@
 # Semester-Project: Community Science Museum.
 ![image](./images/SmallImg.png)
 
-This site is a submission to be graded as the last task for the first semester. Task provided images, opening hours, exhibits, and generally most of the content. This was out first graded assignment, so the quality is significantly lower. We had not yet started learning any javascript. 
+This site is a submission which was to be graded as the last task for the first semester. Task provided images, opening hours, exhibits, and generally most of the content. This was out first graded assignment, so the quality is significantly lower. We had not yet started learning any javascript. 
 
 ## Description
 -I was tasked with creating a website for a new science museum coming to my city, where the target audience was supposed to be families with teenagers or younger kids.
@@ -18,26 +18,26 @@ To view the code, you must clone this repository
 This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
 
 1. Clone the repo:
-'''bash
+```bash
 git clone git@github.com:NoroffFEU/portfolio-1-example.git
-'''
+```
 2. Install the dependencies:
-'''
+```bash
 npm install
-'''
+```
 personally i would use (terminal):
-'''
+```bash
 git pull
-'''
+```
 ### Running
 To run the code, use one of these commands: 
-'''bash
+```bash
 npm run start
-'''
+```
 personally i would use (terminal): 
-'''
+```bash
 code .
-'''
+```
 
 ## Contributing
 I do not allow anyone to directly contribute to this repository, but anyone can make their own version with parts of- or the entirity of my code as long as it is stated somewhere visible that the original creator is ERIKHHJ on github. 
