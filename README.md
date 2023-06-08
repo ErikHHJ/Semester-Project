@@ -18,7 +18,7 @@ To view the code, you must clone this repository
 
 1. Clone the repo:
 ```bash
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
+gh repo clone ErikHHJ/Semester-Project
 ```
 2. Install the dependencies:
 ```bash
